@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@300&display=swap');
+/* navbaaaaaaaaaaaaaaaar*/
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.nav {
+  padding: 20px;
+  width: 90%;
+  height: 60px;
+  margin: 0px auto;
+display:flex;
+justify-content: space-around;
+color : #4314b6;
+font-family: 'Quicksand', sans-serif;}
+
+
+
+/*resumeeeeeeee*/
+.resume {
+  width: 65%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto ;
+  justify-content: center;
+  align-items: center;
+
+}
+.resume h1 {
+  font-size: 60px;
+}
+.resume p {
+  margin-top: 50px;
+  color: gray;
+  font-size: 30px;
+}
+.resume button {
+  width: 250px;
+  height: 50px;
+  padding: 10px;
+margin-top: 50px;
+background-color: #4314b6;
+color: white;
+font-size: 20px;
+font-family: 'Quicksand', sans-serif;
+border: none;
+border-radius: 5px;
+}
+.resume button :hover {
+  background-color:#8a61ee ;
+}
+/*Fill in */
+.container {
+  width: 80%;
+  height: auto;
+  margin: 0px auto;
+}
+.container .container-1 input {
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+  width: 30%;
+  margin-top: 30px;
+}
+.container .container-1{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.container-1 .img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+.container .container-2{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .container-2 input {
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+  width: 50%;
+  margin-top: 30px;
+}
+.container .container-3 input {
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+  width: 80%;
+  height: 40px;
+  margin-top: 30px;
+}
+.container-4{
+  border-top: 30px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-4 .month{
+  width:70px ;
+  height: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+}
+.container-4 .title {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+  width: 80%;
+  height: 10px;
+}.container-4 .tasks{
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+  width: 80%;
+  height: 100px;
+}
+
+/* description */
+
+.description {
+  width: 95%;
+  height: 450px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description h1{
+  font-size: 50px;
+color : rgb(0, 182, 122);
+}
+.description .paragraphes {
+display: flex;
+margin: 0px auto;
+width: 90%;
+}
+.description .paragraphes p{
+  width: 25%;
+  color: gray;
+  font-size: 30px;
+  margin-top: 40px;
+padding: 15px ;
+}
