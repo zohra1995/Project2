@@ -9,7 +9,7 @@ export default function Navbar() {
 
 </Link>
 <Link to=""> 
-  <h3> My CV </h3>
+  <h3> My CVsssssa </h3>
       </Link>    
       </div>
   )
